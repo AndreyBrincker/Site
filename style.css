@@ -21,12 +21,11 @@ body
     align-items: center;
     padding: 10 14px;
     border-radius: 5px;
+    margin-top: 100px;
 }
 
 
 .logo{
-    
-    
     padding-left: 28%;
 }
 
@@ -73,7 +72,7 @@ body
     display: flex;
     flex-direction: column;
     border: 1px solid #350114;
-    transition: transform 0.8s;
+    transition: transform 0.5s;
 
 }
 .resultado span{
@@ -88,4 +87,16 @@ body
 #textoresultado{
     font-size: 24px;
     font-weight: bold;
+}
+
+.info{
+    transition: transform 0.6s;
+    margin-left: 500px; 
+    right: 100px;
+    top: 250px;
+}
+
+.info:hover
+{
+    transform:scale(1.1);
 }
