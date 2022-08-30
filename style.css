@@ -16,12 +16,12 @@ body
 
 .container{
     background-color:blanchedalmond;
-    max-width: 750px;
+    max-width: 700px;
     justify-content: center;
     align-items: center;
-    padding: 10 14px;
+    padding: 20px 20px;
     border-radius: 5px;
-    margin-top: 100px;
+
 }
 
 
@@ -62,7 +62,7 @@ body
 }
 
 .resultado{
-    background-color: #00b63e;
+    background-color: rgb(135, 75, 15);
     max-width: 520px;
     padding: 15px 15px;
     text-align: center;
@@ -75,6 +75,11 @@ body
     transition: transform 0.5s;
 
 }
+
+.hide{
+    display: none;
+}
+
 .resultado span{
     color: #ffff;
     margin-bottom: 8px;
@@ -89,14 +94,30 @@ body
     font-weight: bold;
 }
 
+.infodiv{
+    position: fixed;
+    
+    right: 8px;
+    bottom: 20px;
+}
 .info{
-    transition: transform 0.6s;
-    margin-left: 500px; 
-    right: 100px;
-    top: 250px;
+   width: 63px;
+   height: 63px;
 }
 
-.info:hover
-{
-    transform:scale(1.1);
+.infoimg{
+    background-color: #350114;
+    color:wheat;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 10px 15px;
+    position: relative;
+    bottom: 30px;
+    border:0;
+    display: none;
+}
+
+.infodiv:hover .infoimg{
+
+    display: inline;
 }
